@@ -11,9 +11,10 @@ body{
 	margin-bottom: 50px;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
+  padding: 35px;
 }
 
-h1{
+h1, h2{
 	color: indigo;
 	font-variant: small-caps;
 	text-shadow: 1px 1px white;
@@ -36,7 +37,9 @@ p{
   background-image: url('fatyol.png');
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 10px 10px 10px gray;  
+  box-shadow: 10px 10px 10px gray;
+  border: solid 2px darkblue;
+  font-style: italic;  
 }
 
 .kepkeret img{
@@ -48,4 +51,9 @@ p{
 
 a{
   text-decoration: none;
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 25px;
 }
