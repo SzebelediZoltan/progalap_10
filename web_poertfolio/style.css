@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .9em 1.5em;
+    background-color: antiquewhite;
+    border-bottom: 6px solid plum;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    transition: all .7s;
+}
+
+.logo:hover {
+    text-shadow: 50px 0px plum;
+}
+
+ul.header {
+    margin-right: 1.4em;
+}
+
+ul.header li{
+    font-weight:900;
+    list-style: none;
+    display: inline-block;
+    margin: 0 1.4em;
+    transition: all .5s;
+    box-sizing: content-box;
+    padding: .5em;
+    border: 2px solid antiquewhite;
+    pointer-events: visible;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ul.header li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul.header li:hover {
+    box-sizing: content-box;
+    text-shadow: 5px 2px plum;
+    border: 2px solid plum;
+    border-radius: 25px;
+    transform: scale(110%);
+}
+
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    margin: 1em 1.5em;
+    font-family: 'Righteous';
+}
+
+.tabok {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.magamszoveg, .statok {
+    width: 50%;
+    padding: .7em;
+    background-color: rgba(221, 161, 221, 0.7);
+    margin: 1em 0em;
+    border: 4px solid rgba(221, 161, 221, 1);
+    border-radius: 25px;
+    font-family: 'Righteous';
+}
+
+.statok li {
+    list-style: none;
+}
+
+span {
+    font-family: 'Righteous', cursive;
+    transition: all 1s;
+}
+
+span:hover {
+    text-shadow: 1px 1px 11px plum;
+}
+
+
+
+
+
