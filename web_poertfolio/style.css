@@ -100,7 +100,29 @@ span:hover {
     text-shadow: 1px 1px 11px plum;
 }
 
+.lang {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
 
+.langtab {
+    width: 50%;
+    padding: .7em;
+    background-color: rgba(221, 161, 221, 0.7);
+    margin: 1em 0em;
+    border: 4px solid rgba(221, 161, 221, 1);
+    border-radius: 25px;
+    font-family: 'Righteous';
+}
+
+.langtab h3 {
+    text-align: center;
+}
+
+.langtab p {
+    text-align: center;
+}
 
 
 
