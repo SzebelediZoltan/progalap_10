@@ -109,9 +109,8 @@ span:hover {
 .langtab {
     width: 50%;
     padding: .7em;
-    background-color: rgba(221, 161, 221, 0.7);
+    background-color: rgba(221, 161, 221, 0.17);
     margin: 1em 0em;
-    border: 4px solid rgba(221, 161, 221, 1);
     border-radius: 25px;
     font-family: 'Righteous';
 }
